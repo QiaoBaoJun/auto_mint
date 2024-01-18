@@ -41,12 +41,12 @@ export const executeStop = () => {
 
 let execute = true;
 
-export async function executeTransaction(sKey: string,seconds: number = 10, tick: string = "MOVE") {
+export async function executeTransaction(sKey: string,seconds: number = 10, tick: string = "ZODI") {
   const secretKey = sKey; // 修改这里，填入私钥
   const PACKAGE_ID =
-    "0x830fe26674dc638af7c3d84030e2575f44a2bdc1baa1f4757cfe010a4b106b6a"; // mainnet
+    "0xebbba763f5fc01d90c2791c03536a373791b634600e81d4e08b85f275f1274fa"; // mainnet
   const TickRecordID =
-    "0xfa6f8ab30f91a3ca6f969d117677fb4f669e08bbeed815071cf38f4d19284199"; // mainnet
+    "0x1a6e4f649935bfb50bdf3c25d1310278c3cd01ea872489a38e23da7ad7f2f683"; // mainnet
   const MINT_FEE = 100000000; // 0.1 SUI
   const TICK = tick;
 
